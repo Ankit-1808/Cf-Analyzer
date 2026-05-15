@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #1d2238;
+  background:
+    radial-gradient(circle at top left, rgba(255, 122, 89, 0.2), transparent 34%),
+    radial-gradient(circle at bottom right, rgba(31, 95, 139, 0.18), transparent 30%),
+    linear-gradient(135deg, #f7f4ed 0%, #eef4f7 100%);
+  font-family: "Trebuchet MS", "Gill Sans", "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: inherit;
+  color: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.heatmap-scroll {
+  scrollbar-width: thin;
+}
+
+.heat-level-0 {
+  background-color: rgba(29, 34, 56, 0.08);
+}
+
+.heat-level-1 {
+  background-color: rgba(143, 211, 194, 0.45);
+}
+
+.heat-level-2 {
+  background-color: rgba(143, 211, 194, 0.7);
+}
+
+.heat-level-3 {
+  background-color: rgba(31, 95, 139, 0.72);
+}
+
+.heat-level-4 {
+  background-color: rgba(255, 122, 89, 0.92);
+}
+
+.panel-surface {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(14px);
+}
