@@ -12,9 +12,7 @@
 
 ## Live Demo
 
-- Frontend: [https://cf-analyzer-xhmn.vercel.app/](https://cf-analyzer-xhmn.vercel.app/)
-- Backend: [https://cf-analyzer-v8l1.onrender.com](https://cf-analyzer-v8l1.onrender.com)
-- Health Check: [https://cf-analyzer-v8l1.onrender.com/api/health](https://cf-analyzer-v8l1.onrender.com/api/health)
+try out=https://cf-analyzer-xhmn.vercel.app/
 
 ## Overview
 
